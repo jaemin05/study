@@ -1,0 +1,14 @@
+{% extends "./base.html" %}
+{% block layout %}
+<div class="layout">
+    <div>
+        {% block header %}
+        {% include "./header.html" %}
+        {% endblock %}
+    </div>
+</div>
+<div>
+    {% block contents_wrap %}
+    {% endblock %}
+</div>
+{% endblock %}

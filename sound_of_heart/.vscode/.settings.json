@@ -1,0 +1,13 @@
+{
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.preserveNewLines": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript"
+  ]
+}
+   
